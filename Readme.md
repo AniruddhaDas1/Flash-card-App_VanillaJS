@@ -2,6 +2,10 @@
 
 ![Project-Image](/Assets/proj-img.jpg)
 
+![Project-Image](/Assets/proj-img1.jpg)
+
+![Project-Image](/Assets/proj-img2.jpg)
+
 ## Project Details :
 
 _When users type anything in the text, it will show in a card._
