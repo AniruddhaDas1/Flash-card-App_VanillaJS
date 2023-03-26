@@ -6,17 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
     <title>Flash Card Info App</title>
   </head>
-  <body>
+  <body class="">
     <div class="container">
       <div class="add-flashcard-con">
-        <h1 class="title">FlashCard App for Q&A </h1>
+        <h1 class="title">FlashCard App for Q&A</h1>
         <button id="add-flashcard">Add Flashcard</button>
       </div>
     </div>
@@ -25,8 +34,8 @@
     <div id="card-con">
       <div class="card-list-container"></div>
     </div>
-  
-  <!-- Input Form / modal for users Q&A -->
+
+    <!-- Input Form / modal for users Q&A -->
     <div class="question-container hide" id="add-question-card">
       <h2>Add Flashcard</h2>
       <div class="wrapper">
@@ -37,16 +46,30 @@
         <!-- Close Button -->
         <i class="fa-solid fa-xmark" id="close-btn"></i>
       </div>
-      
+
       <label for="question">Question:</label>
-      <textarea id="question" class="input" placeholder="Type the Question here...." rows="2"></textarea>
+      <textarea
+        id="question"
+        class="input"
+        placeholder="Type the Question here...."
+        rows="2"
+      ></textarea>
       <label for="answer">Answer:</label>
-      <textarea name="" id="answer" rows="4" class="input" placeholder="Type the answer here...."></textarea>
+      <textarea
+        name=""
+        id="answer"
+        rows="4"
+        class="input"
+        placeholder="Type the answer here...."
+      ></textarea>
       <button id="save-btn">Save</button>
     </div>
 
-	  <div class="footer">
-      <h5>Developed by Aniruddha | CoderX Community | Build on Vanila Javascript </h5>
+    <div class="footer">
+      <h5>
+        Developed by <a href="https://github.com/AniruddhaDas1">Aniruddha</a> |
+        CoderX Community | Build on Vanilla Javascript 👨‍💻
+      </h5>
     </div>
     <script src="./script.js"></script>
   </body>
